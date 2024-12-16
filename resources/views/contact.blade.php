@@ -23,8 +23,10 @@
             <div class="text-2xl font-bold  mb-8 ml-5 mt-8">ADMIN MENU</div>
             <nav class="flex flex-col space-y-4">
                 <div class="flex justify-left ml-4 items-center">
-                    <a href="{{ url('/customorder') }}" class="bg-green-200 text-green-800 py-1 px-2 mx- rounded">ADMIN</a>
-                    <a href="{{ url('/dashboard') }}" class="bg-green-200 text-green-800 py-1 px-2 mx-1 rounded">USER</a>
+                    <a href="{{ url('/customorder') }}"
+                        class="bg-green-200 text-green-800 py-1 px-2 mx- rounded">ADMIN</a>
+                    <a href="{{ url('/dashboard') }}"
+                        class="bg-green-200 text-green-800 py-1 px-2 mx-1 rounded">USER</a>
                 </div>
                 <a href="{{ url('/dashboard') }}" class="py-2.5 px-6 bg-green-900 hover:bg-green-800 flex items-center">
                     <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
